@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Marcellus&display=swap');
+
+
+.header {
+    display: flex;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.8);
+}
+
+.headernew {
+    width: 100%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.8);
+}
+
+input[type='submit'] {
+    background-color: rgb(7, 12, 54);
+    width: 12%;
+    font-weight: bold;
+    padding: 10px 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+input[type='text'], input[type='password'] {
+    width: 40%;
+    color: #000;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(223, 230, 246);
+}
+
+.addform {
+    background-color: rgb(179, 178, 178);
+    width: 50%;
+    margin: auto;
+    opacity: 0.7;
+}
+
+select {
+    width: 40%;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(223, 230, 246);
+}
+
+.frook {
+    flex: 1;
+    font-family: 'Marcellus', serif;
+    background-color: rgb(243, 87, 87);
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+    padding-left: 10px;
+    width: 60%;
+    text-shadow: rgba(92, 15, 15, 0.9) -1px 3px 1px;
+}
+
+.frooknew {
+    flex: 1;
+    font-family: 'Marcellus', serif;
+    background-color: rgb(243, 87, 87);
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+    padding-left: 10px;
+    width: 100%;
+    text-shadow: rgba(92, 15, 15, 0.9) -1px 3px 1px;
+}
+
+.main {
+  background-image: url("https://i.imgur.com/uemAzHs.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.log {
+    font-family: 'Righteous', serif;
+    background-color: rgb(243, 87, 87);
+    width: 40%;
+    text-align: right;
+    padding: 0 10px;
+}
+
+.dark {
+    color: rgb(8, 18, 73);
+    opacity: 0.2;
+}
+
+.rec {
+    color: rgb(68, 60, 145);
+    opacity: 0.7;
+}
+
+.button {
+    font-family: 'Righteous', serif;
+    background-color: rgb(104, 60, 139);
+    margin-top: 10px;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid rgb(163, 122, 209);
+    border-radius: 5px;
+    width: 12%;
+    text-align: center;
+  }
+
+  .text-over {
+      color: whitesmoke;
+      text-shadow: #474747 2px 4px 2px;
+      font-size: 20px;
+      text-decoration: none;
+  }
+
+  .text-over:hover {
+    color: whitesmoke;
+      text-decoration: none;
+      cursor: url(https://i.imgur.com/KtdyacY.png?1),auto;
+  }
+
+  .create {
+    font-family: 'Righteous', serif;
+    background-color: #E9431A;
+  }
+
+  .center {
+      margin: auto;
+      width: 100%;
+      text-align: center;
+  }
+
+  ul {
+      list-style-type: none;
+  }
+
+  li {
+      margin: 10px 0;
+  }
+
+  input {
+      margin-bottom: 10px;
+  }
+
+  .card {
+      background-color: rgb(252, 244, 162);
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 10px;
+      box-shadow: 10px 30px 40px rgba(0,0,0,.8);
+  }
+
+  .larger {
+      font-size: 1.7rem;
+      cursor: url(https://i.imgur.com/KtdyacY.png?1),auto;
+      text-decoration: none;
+  }
+
+  .edit {
+      background-color: royalblue;
+      border-radius: 6px;
+      height: 4%;
+      width: 5%;
+      margin: 0;
+      padding: 0 10px;
+      text-align: center;
+  }
+
+  .edit a {
+      text-decoration: none;
+      display: block;
+      color: whitesmoke;
+      font-weight: bold;
+  }
+
+  .half {
+    width: 50%;
+}
+
+  .form {
+    padding: 10px 10px;
+}
+
+  .space {
+    padding: 0 10px;
+    margin: 8px;
+}
+
+  #sbmt {
+    background-color: rgb(233, 13, 13);
+    border: 0.1rem solid rgb(233, 13, 13);
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 10px 7px;
+}
+
+a {
+    cursor: url(https://i.imgur.com/Ammxw3d.png),auto;
+}
+
+.diet {
+    color: rgb(6, 51, 252);
+}
+
+.allergy {
+    background-color: rgb(83, 248, 7);
+    width: 25%;
+    font-weight: bold;
+}
+
+
+
